@@ -12,17 +12,17 @@
         <div class="field row mt-4">
           <%= f.label :email, class: "col-2 col-form-label text-light" %><br/>
           <div class="col-10">
-            <%= f.text_area :email, rows:10, class: "form-control shadow rounded", placeholder: "Enter your email address" %>
+            <%= f.text_area :email, class: "form-control shadow rounded", placeholder: "Enter your email address" %>
           </div>
         </div>
         <div class="field row mt-4">
           <%= f.label :password, class: "col-2 col-form-label text-light" %><br/>
           <div class="col-10">
-            <%= f.text_area :password, rows:10, class: "form-control shadow rounded", placeholder: "Choose a password" %>
+            <%= f.text_area :password, class: "form-control shadow rounded", placeholder: "Choose a password" %>
           </div>
         </div>
         <div class="actions row justify-content-center mt-4">
-          <%= f.submit class: "btn btn-outline-dark btn-lg" %>
+          <%= f.submit "Sign up", class: "btn btn-outline-dark btn-lg" %>
         </div>
       <% end %>
       <div class="mb-3">            
